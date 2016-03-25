@@ -1,4 +1,22 @@
-commit e19dcb66b582bfbc626f2cc2a02eacba03b66e6b (HEAD, origin/master, origin/HEAD, master)
+commit 8b5b3acf1933df437cbab27c07e89e252518bf88 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 00:35:13 2016 -0430
+
+    * agrego notas
+
+commit 7665982cbba1273a311ae1d88f8405d47ead4832
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 00:30:38 2016 -0430
+
+    * primeros pasos
+
+commit 37741c118c909fc62c2e2359344bf1a5f954be7c
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Mar 23 17:49:36 2016 -0430
+
+    * changelog
+
+commit e19dcb66b582bfbc626f2cc2a02eacba03b66e6b
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Mar 23 17:49:00 2016 -0430
 
