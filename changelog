@@ -1,4 +1,16 @@
-commit 66e36ff36a5468c5b2d1bb41b7214649e6d7a343 (HEAD, origin/master, origin/HEAD, master)
+commit 575d4750303010fcb81dcf1131f2225ca3f645d0 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 12:16:42 2016 -0430
+
+    * se crea la estructura basica del script
+
+commit 26001b7b188c55882697e7177a6cb477fc28bfd3
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 11:55:24 2016 -0430
+
+    * changelog
+
+commit 66e36ff36a5468c5b2d1bb41b7214649e6d7a343
 Author: jose perez <sinfallas@gmail.com>
 Date:   Fri Mar 25 11:54:59 2016 -0430
 
