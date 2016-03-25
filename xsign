@@ -3,11 +3,31 @@
 # Licence: GPL-2
 LC_ALL=C
 
-# crear carpetas necesarias
-# crear firmas acompañantes
-# mover las firmas a la carpeta
-# comprimir en .tar.gz
-# limpiar
+if [[ "$EUID" = "0" ]]; then
+	echo "ERROR: No debe ser root."
+fi
 
-echo -e "\e[00;1;92mFinished...\e[00m"
+if [[ -d /tmp/firmas ]]; then
+	rm -rf /tmp/firmas/*
+else
+	mkdir -p /tmp/firmas
+fi
+
+if [[ -z $1 ]]; then
+	echo "ERROR: No coloco el nombre de la persona que creara las firmas."
+	echo "Ejemplo: ./xsign minombre /home/user/dir"
+else
+	if [[ -z $2 ]]; then	
+		echo "ERROR: No coloco el donde estas los archivos a firmar."
+		echo "Ejemplo: ./xsign minombre /home/user/dir"
+	else
+		for i in $(ls $2); do
+			gpg --output /tmp/firmas/$1.$i.sig --detach-sig $i
+		done
+		tar -czf /tmp/"$1".tar.gz /tmp/firmas/
+		rm -rf /tmp/firmas/*
+	fi
+fi
+
+echo "Finalizado..."
 exit 0
