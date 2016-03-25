@@ -1,4 +1,34 @@
-commit 575d4750303010fcb81dcf1131f2225ca3f645d0 (HEAD, origin/master, origin/HEAD, master)
+commit 0dfee689f8fa50e54abdec1f1dc175e3cb27d82a (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 12:31:35 2016 -0430
+
+    * zenodo
+
+commit 30d46e1e94d94d498ef64674e4f713c5ab44c8ec
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 12:27:25 2016 -0430
+
+    * travis logo
+
+commit 53b524f7898c7538a67de334c2ae241cbb0349ac
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 12:26:46 2016 -0430
+
+    * archivo de travis
+
+commit bd8607cab10aec8acedb8707bffa3ecf6652dc7c
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 12:23:06 2016 -0430
+
+    * se finaliza el script
+
+commit 537528a91c65e02952984c88e532299a8faa59f1
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 12:17:12 2016 -0430
+
+    * changelog
+
+commit 575d4750303010fcb81dcf1131f2225ca3f645d0
 Author: jose perez <sinfallas@gmail.com>
 Date:   Fri Mar 25 12:16:42 2016 -0430
 
