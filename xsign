@@ -18,7 +18,7 @@ if [[ -z $1 ]]; then
 	echo "Ejemplo: ./xsign minombre /home/user/dir"
 else
 	if [[ -z $2 ]]; then	
-		echo "ERROR: No coloco el donde estas los archivos a firmar."
+		echo "ERROR: No coloco el directorio donde estan los archivos a firmar."
 		echo "Ejemplo: ./xsign minombre /home/user/dir"
 	else
 		for i in $(ls $2); do
@@ -26,6 +26,7 @@ else
 		done
 		tar -czf /tmp/"$1".tar.gz /tmp/firmas/
 		rm -rf /tmp/firmas/*
+		echo "Firmas guardadas en /tmp/$1.tar.gz"
 	fi
 fi
 
