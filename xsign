@@ -2,8 +2,6 @@
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
 LC_ALL=C
-trap "rm -f /run/$(basename $0).pid; exit" 0 1 2 3 15
-echo "$BASHPID" > /run/$(basename $0).pid
 
 # crear carpetas necesarias
 # crear firmas acompañantes
@@ -12,5 +10,4 @@ echo "$BASHPID" > /run/$(basename $0).pid
 # limpiar
 
 echo -e "\e[00;1;92mFinished...\e[00m"
-rm -f /run/$(basename $0).pid
 exit 0
