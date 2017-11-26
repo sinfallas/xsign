@@ -1,4 +1,16 @@
-commit 409c6a7f91cd9eec8440cf12f0efe6bbbe5c0769 (HEAD, origin/master, origin/HEAD, master)
+commit e5e531449b54945e178d8931c979f221b63c1c67 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Nov 26 13:50:13 2017 -0400
+
+    * se agrega la funcion instalar
+
+commit 8631372282f1132bb28e47551ce68f0e869dc145 (tag: v0.2)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 25 12:40:44 2016 -0430
+
+    * changelog
+
+commit 409c6a7f91cd9eec8440cf12f0efe6bbbe5c0769
 Author: jose perez <sinfallas@gmail.com>
 Date:   Fri Mar 25 12:40:30 2016 -0430
 
@@ -16,7 +28,7 @@ Date:   Fri Mar 25 12:31:35 2016 -0430
 
     * zenodo
 
-commit 30d46e1e94d94d498ef64674e4f713c5ab44c8ec
+commit 30d46e1e94d94d498ef64674e4f713c5ab44c8ec (tag: v0.1)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Fri Mar 25 12:27:25 2016 -0430
 
